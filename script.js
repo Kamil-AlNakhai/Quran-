@@ -86,6 +86,8 @@ function setStartDate() {
 
     // تحديث التقويم
     generateCalendar();
+        alert("تم حفظ التاريخ والتطبيق بنجاح .");
+
 }
 
 function openPopup(link) {
