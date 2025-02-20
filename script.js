@@ -79,10 +79,11 @@ function setStartDate() {
     }
 
     startDate = selectedDate;
+        // عرض رسالة تأكيد
+    alert("تم تحديد تاريخ البداية بنجاح. قم بالحفظ لتطبيق النتائج.");
     localStorage.setItem('startDate', startDate);
 
-    // عرض رسالة تأكيد
-    alert("تم تحديد تاريخ البداية بنجاح. قم بالحفظ لتطبيق النتائج.");
+
 
     // تحديث التقويم
     generateCalendar();
