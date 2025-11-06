@@ -44,11 +44,11 @@ function generateCalendar() {
     const remainingDays = 30 - daysPassed;
 
     if (remainingDays <= 0) {
-        document.getElementById('remainingDays').textContent = "لقد انتهى شهر رمضان!";
+        document.getElementById('remainingDays').textContent = "لقد انتهى الشهر !";
         return;
     }
 
- document.getElementById('remainingDays').textContent = `(${remainingDays}) يوم هي الأيام المتبقية لنهاية شهر الخير والبركة فاستثمرها `;
+ document.getElementById('remainingDays').textContent = `(${remainingDays}) القران هدية الاحياء ونور الى من فارقونا فاكثرو من قرائته فانه ينور عليهم ظلمة القبر  `;
     for (let i = 1; i <= 30; i++) {
         const day = document.createElement('div');
         day.classList.add('day');
